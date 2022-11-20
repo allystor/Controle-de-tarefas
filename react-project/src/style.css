@@ -47,3 +47,12 @@ html {
     min-height: 100vh;
     color: white;
   }
+  .Container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    padding: 8px;
+    grid-gap: 8px;
+  }
